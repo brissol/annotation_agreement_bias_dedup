@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "brissol-safeval_jd125"
+name = "brissol-annotation_agreement_bias_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出模型安全评测负责人·标注一致性与标注者偏差上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://brissol.github.io"
-Repository = "https://github.com/brissol/safeval_jd125"
-Issues = "https://github.com/brissol/safeval_jd125/issues"
+Repository = "https://github.com/brissol/annotation_agreement_bias_dedup"
+Issues = "https://github.com/brissol/annotation_agreement_bias_dedup/issues"
 
 [project.scripts]
-safeval_jd125 = "safeval_jd125:main"
+annotation_agreement_bias_dedup = "annotation_agreement_bias_dedup:main"
 
 [tool.setuptools]
-py-modules = ["safeval_jd125"]
+py-modules = ["annotation_agreement_bias_dedup"]
